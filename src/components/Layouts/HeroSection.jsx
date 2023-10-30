@@ -52,15 +52,13 @@ const HeroSection = () => {
               </div>
               <img src={fotoGroup} className="hidden lg:block" alt="" />
             </div>
-            <img
-              src={buHerny}
-              alt="Herny Junarti, S.E"
-              className="w-full lg:w-1/3"
-            />
+            <div className="w-full lg:w-1/3">
+              <img src={buHerny} alt="Herny Junarti, S.E" className="w-full" />
+            </div>
           </div>
         </Container>
       </div>
-      <div className="flex flex-wrap justify-center lg:justify-evenly -mt-20 mb-10">
+      <div className="flex flex-wrap justify-center lg:justify-evenly -mt-20 mb-10 px-4">
         <VisiMisi title="Visi" bg="top">
           <div className="h-full flex items-center">
             <p className="text-xl md:text-2xl lg:text-3xl text-center">

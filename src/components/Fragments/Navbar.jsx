@@ -4,7 +4,7 @@ const Navbar = () => {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="fixed top-0 left-0 w-full text-white flex justify-between items-center backdrop-blur-sm px-8 py-4">
+    <nav className="fixed top-0 left-0 w-full text-white flex justify-between items-center backdrop-blur-sm px-8 py-4 z-50">
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
         HERNY JUNIARTI, S.E
       </h1>
