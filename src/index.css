@@ -6,3 +6,9 @@
   box-shadow: 0 0 0 4px #b8c6ff, inset 0 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 0 4px rgba(0, 0, 0, 0.05) !important;
 }
+
+@layer components {
+  .btn-primary {
+    @apply py-4 px-4 bg-blue-700 text-white font-semibold rounded-xl shadow-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:ring-opacity-75;
+  }
+}

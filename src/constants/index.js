@@ -5,6 +5,19 @@ import {
   sunlife,
   telkomsel,
   building,
+  galeri1,
+  galeri2,
+  galeri3,
+  galeri4,
+  galeri5,
+  galeri6,
+  galeri7,
+  galeri8,
+  galeri9,
+  twitter,
+  facebook,
+  instagram,
+  tiktok,
 } from "../assets";
 
 const pengalaman = [
@@ -59,4 +72,70 @@ const pengalaman = [
   },
 ];
 
-export { pengalaman };
+const galeries = [
+  {
+    id: 1,
+    image: galeri1,
+  },
+  {
+    id: 2,
+    image: galeri2,
+  },
+  {
+    id: 3,
+    image: galeri3,
+  },
+  {
+    id: 4,
+    image: galeri4,
+  },
+  {
+    id: 5,
+    image: galeri5,
+  },
+  {
+    id: 6,
+    image: galeri6,
+  },
+  {
+    id: 7,
+    image: galeri7,
+  },
+  {
+    id: 8,
+    image: galeri8,
+  },
+  {
+    id: 9,
+    image: galeri9,
+  },
+];
+
+const socials = [
+  {
+    id: 1,
+    logo: twitter,
+    link: "http://",
+    name: "@hernyjuniarti",
+  },
+  {
+    id: 2,
+    logo: facebook,
+    link: "http://",
+    name: "@hernyjuniarti",
+  },
+  {
+    id: 3,
+    logo: instagram,
+    link: "http://",
+    name: "@hernyjuniarti",
+  },
+  {
+    id: 4,
+    logo: tiktok,
+    link: "http://",
+    name: "@hernyjuniarti",
+  },
+];
+
+export { pengalaman, galeries, socials };

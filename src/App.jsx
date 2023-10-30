@@ -1,8 +1,11 @@
+import Footer from "./components/Fragments/Footer";
 import Navbar from "./components/Fragments/Navbar";
 import AboutSection from "./components/Layouts/AboutSection";
+import DocumentationSection from "./components/Layouts/DocumentationSection";
 import ExperienceSection from "./components/Layouts/ExperienceSection";
 import HeroSection from "./components/Layouts/HeroSection";
-import Organization from "./components/Layouts/Organization";
+import JoinSection from "./components/Layouts/JoinSection";
+import OrganizationSection from "./components/Layouts/OrganizationSection";
 function App() {
   return (
     <>
@@ -10,7 +13,10 @@ function App() {
       <HeroSection />
       <AboutSection />
       <ExperienceSection />
-      <Organization />
+      <OrganizationSection />
+      <DocumentationSection />
+      <JoinSection />
+      <Footer />
     </>
   );
 }
