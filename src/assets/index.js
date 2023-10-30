@@ -7,6 +7,8 @@ import buHernySalam from "./image/bu-herny-salam.png";
 import bgCardTop from "./elements/bg-card-top.png";
 import bgCardBottom from "./elements/bg-card-bottom.png";
 import titleIcon from "./elements/title-icon.svg";
+import organisasiBg from "./elements/organisasi-bg.svg";
+import plus from "./elements/plus.svg";
 
 import bankBali from "./logo/bank-bali.png";
 import hanwa from "./logo/hanwa.png";
@@ -24,6 +26,8 @@ export {
   bgCardTop,
   bgCardBottom,
   titleIcon,
+  organisasiBg,
+  plus,
   bankBali,
   hanwa,
   samsung,
