@@ -58,7 +58,7 @@ const HeroSection = () => {
           </div>
         </Container>
       </div>
-      <div className="flex flex-wrap justify-center lg:justify-evenly -mt-20 mb-10 px-4">
+      <div className="flex flex-wrap justify-center lg:justify-evenly -mt-20 mb-10">
         <VisiMisi title="Visi" bg="top">
           <div className="h-full flex items-center">
             <p className="text-xl md:text-2xl lg:text-3xl text-center">

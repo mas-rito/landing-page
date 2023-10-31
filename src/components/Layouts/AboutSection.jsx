@@ -15,7 +15,7 @@ const AboutSection = () => {
             </h1>
             <img src={titleIcon} alt="" className="mx-auto md:mx-0" />
           </div>
-          <p className="text-lg text-black text-justify mb-1">
+          <p className="text-lg text-black text-justify mb-3">
             <span className="font-bold text-blue-800">
               Saya adalah Herny Juniarti,
             </span>{" "}
@@ -28,7 +28,7 @@ const AboutSection = () => {
               TK Kanisius pada tahun 1977 hingga 1979.
             </span>
           </p>
-          <p className="text-lg text-black text-justify mb-1">
+          <p className="text-lg text-black text-justify mb-3">
             Setelah itu, saya melanjutkan pendidikan dasar saya di{" "}
             <span className="font-bold text-blue-800">
               SD Dahlia dari tahun 1979 hingga 1985.
@@ -41,7 +41,7 @@ const AboutSection = () => {
               prestasi akademik saya mulai bersinar.
             </span>
           </p>
-          <p className="text-lg text-black text-justify mb-1">
+          <p className="text-lg text-black text-justify mb-3">
             Saat melangkah ke pendidikan menengah atas pada{" "}
             <span className="font-bold text-blue-800">
               tahun 1988 hingga 1991,
@@ -58,7 +58,7 @@ const AboutSection = () => {
               memperluas pengetahuan dan keterampilan saya.
             </span>
           </p>
-          <p className="text-lg text-black text-justify mb-1">
+          <p className="text-lg text-black text-justify mb-3">
             Biodata saya mencerminkan perjalanan{" "}
             <span className="font-bold text-blue-800">
               pendidikan yang kuat
