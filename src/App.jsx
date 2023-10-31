@@ -10,11 +10,21 @@ function App() {
   return (
     <>
       <Navbar />
-      <HeroSection />
-      <AboutSection />
-      <ExperienceSection />
-      <OrganizationSection />
-      <DocumentationSection />
+      <section id="home">
+        <HeroSection />
+      </section>
+      <section id="about">
+        <AboutSection />
+      </section>
+      <section id="experience">
+        <ExperienceSection />
+      </section>
+      <section id="organization">
+        <OrganizationSection />
+      </section>
+      <section id="docimentation">
+        <DocumentationSection />
+      </section>
       <JoinSection />
       <Footer />
     </>

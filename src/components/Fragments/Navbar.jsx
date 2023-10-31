@@ -21,7 +21,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full ${
+      className={`fixed top-0 left-0 w-full duration-500 ${
         scrollY ? "text-blue-800" : "text-white"
       } flex justify-between items-center backdrop-blur-sm ${
         isScroll ? "bg-blue-50 shadow-md" : "bg-transparent shadow-none"
@@ -51,19 +51,19 @@ const Navbar = () => {
         }  ${open ? "top-16" : "top-[-200px]"}`}
       >
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          Home
+          <a href="#home">Home</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          Biodata Saya
+          <a href="#about">Biodata Saya</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          Pengalaman
+          <a href="#experience">Pengalaman</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          Organisasi
+          <a href="#organization">Organisasi</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          Dokumentasi
+          <a href="#docimentation">Dokumentasi</a>
         </li>
       </ul>
       <img

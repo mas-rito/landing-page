@@ -4,7 +4,7 @@ import Container from "../Fragments/Container";
 const JoinSection = () => {
   return (
     <Container>
-      <div className="my-20 bg-zinc-300 flex flex-wrap justify-evenly rounded-2xl py-16 px-3 md:px-28">
+      <div className="my-20 bg-zinc-100 flex flex-wrap justify-evenly rounded-2xl py-16 px-3 md:px-28">
         <div className="w-full md:w-1/2">
           <h1 className="text-2xl lg:text-4xl font-bold text-black mb-10 text-center md:text-start">
             Ingin Gabung Ke Tim Pemenang Herny?

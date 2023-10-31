@@ -11,7 +11,7 @@ import "react-vertical-timeline-component/style.min.css";
 const ExperienceSection = () => {
   return (
     <Container>
-      <div className="my-20">
+      <div className="py-20">
         <h1 className="text-2xl lg:text-4xl font-bold text-black my-3 text-center">
           Pengalaman Kerja & wirausaha
         </h1>

@@ -3,8 +3,8 @@ import { galeries } from "../../constants";
 
 const DocumentationSection = () => {
   return (
-    <Container>
-      <h1 className="text-2xl lg:text-4xl font-bold text-black text-center my-10">
+    <Container classname={"py-20"}>
+      <h1 className="text-2xl lg:text-4xl font-bold text-black text-center py-10">
         Dokumentasi
       </h1>
 

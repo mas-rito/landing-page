@@ -4,7 +4,7 @@ import { socials } from "../../constants";
 const Footer = () => {
   return (
     <div
-      className="flex flex-wrap justify-between bg-gray-300 py-10 px-6 md:px-20 bg-no-repeat bg-right-bottom"
+      className="flex flex-wrap justify-between bg-gray-200 py-10 px-6 md:px-20 bg-no-repeat bg-right-bottom"
       style={{ backgroundImage: `url(${backgroundFooter})` }}
     >
       <div className="hidden md:flex flex-col md:w-1/2 gap-8 mb-10 md:mb-0 text-center md:text-start">

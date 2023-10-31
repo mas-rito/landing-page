@@ -4,7 +4,7 @@ import Container from "../Fragments/Container";
 const AboutSection = () => {
   return (
     <Container>
-      <div className="flex flex-wrap my-20">
+      <div className="flex flex-wrap py-20">
         <div className="w-full md:w-1/3">
           <img src={buHernySalam} alt="Bu Herny Junarti" className="w-full" />
         </div>

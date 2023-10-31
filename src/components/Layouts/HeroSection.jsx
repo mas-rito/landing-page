@@ -21,13 +21,13 @@ const VisiMisi = (props) => {
             } w-1/2 z-10`}
           />
         )}
-        <div className="flex flex-col p-6 h-[480px] rounded-xl border-2 border-blue-500 bg-white">
-          <div className="flex justify-center mt-5">
+        <div className="flex flex-col p-6 rounded-xl border-2 border-blue-500 bg-white">
+          <div className="flex justify-center mt-3">
             <h1 className="text-center bg-blue-600 px-4 py-2 font-bold text-3xl text-white rounded-lg">
               {title}
             </h1>
           </div>
-          <div className="text-blue-600 font-bold h-full my-5 z-20">
+          <div className="text-blue-600 font-bold my-5 z-20 md:min-h-[260px]">
             {children}
           </div>
         </div>
@@ -60,11 +60,9 @@ const HeroSection = () => {
       </div>
       <div className="flex flex-wrap justify-center lg:justify-evenly -mt-20 mb-10">
         <VisiMisi title="Visi" bg="top">
-          <div className="h-full flex items-center">
-            <p className="text-xl md:text-2xl lg:text-3xl text-center">
-              Berperan Aktif Untuk Mewujudkan Masyarakat Madani Adil Dan Makmur
-            </p>
-          </div>
+          <p className="text-xl md:text-2xl lg:text-3xl text-center">
+            Berperan Aktif Untuk Mewujudkan Masyarakat Madani Adil Dan Makmur
+          </p>
         </VisiMisi>
 
         <VisiMisi title="Misi">
