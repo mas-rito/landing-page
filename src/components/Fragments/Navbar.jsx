@@ -17,15 +17,13 @@ const Navbar = () => {
     };
   }, []);
 
-  console.log(isScroll);
-
   return (
     <nav
       className={`fixed top-0 left-0 w-full duration-500 ${
         scrollY ? "text-blue-800" : "text-white"
       } flex justify-between items-center backdrop-blur-sm ${
         isScroll ? "bg-blue-50 shadow-md" : "bg-transparent shadow-none"
-      }  px-8 py-4 z-50`}
+      }  px-8 py-4 z-40`}
     >
       <h1 className="text-xl md:text-2xl lg:text-3xl font-bold">
         HERNY JUNIARTI, S.E
@@ -63,7 +61,7 @@ const Navbar = () => {
           <a href="#organization">Organisasi</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          <a href="#docimentation">Dokumentasi</a>
+          <a href="#documentation">Dokumentasi</a>
         </li>
       </ul>
       <img
