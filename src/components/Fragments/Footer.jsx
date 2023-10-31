@@ -4,10 +4,10 @@ import { socials } from "../../constants";
 const Footer = () => {
   return (
     <div
-      className="flex flex-wrap justify-between bg-gray-300 p-10 bg-no-repeat bg-right-bottom"
+      className="flex flex-wrap justify-between bg-gray-300 py-10 px-6 md:px-20 bg-no-repeat bg-right-bottom"
       style={{ backgroundImage: `url(${backgroundFooter})` }}
     >
-      <div className="flex flex-col gap-8 w-full md:w-1/2 mb-10 md:mb-0 text-center md:text-start">
+      <div className="hidden md:flex flex-col md:w-1/2 gap-8 mb-10 md:mb-0 text-center md:text-start">
         <h1 className="text-black font-bold text-xl">
           Segera gabung ke dalam tim TheWinningHerny
         </h1>
@@ -23,12 +23,9 @@ const Footer = () => {
           menciptakan masa depan yang lebih baik.
         </p>
       </div>
-      <div className="flex flex-col gap-2 w-full md:w-1/2 mt-5 md:mt-0">
+      <div className="flex flex-wrap md:flex-col gap-2 w-full md:w-1/2">
         {socials.map((social) => (
-          <div
-            className="flex gap-2 justify-end md:justify-center items-center"
-            key={social.id}
-          >
+          <div className="flex gap-2 justify-end items-center" key={social.id}>
             <img src={social.logo} alt={social.name} />
             <p className="text-white ">{social.name}</p>
           </div>
