@@ -1,17 +1,12 @@
 import { buHernySalam, titleIcon } from "../../assets";
 import Container from "../Fragments/Container";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const AboutSection = () => {
   return (
     <Container>
       <div className="flex flex-wrap py-20">
         <div className="w-full md:w-1/3">
-          <LazyLoadImage
-            src={buHernySalam}
-            alt="Bu Herny Junarti"
-            className="w-full"
-          />
+          <img src={buHernySalam} alt="Bu Herny Junarti" className="w-full" />
         </div>
         <div className="w-full md:w-2/3 px-3 md:ps-10 ">
           <div className="my-5">
