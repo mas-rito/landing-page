@@ -59,6 +59,18 @@ const AboutSection = () => {
             </span>
           </p>
           <p className="text-lg text-black text-justify mb-3">
+            Jiwa kepemimpinan saya dimulai dari saya bergabung dengan berbagai
+            organisasi seperti{" "}
+            <span className="font-bold text-blue-800">
+              Wanita Katholik Republik Indonesia (WKRI)
+            </span>{" "}
+            dengan jabatan terakhir{" "}
+            <span className="font-bold text-blue-800">Wakil Ketua</span> Begitu
+            juga ketika saya berwirausaha dengan tantangan semakin besar. Untuk
+            membangun usaha agar semakin berkembang diperlukan kegigihan dan
+            kerja keras.
+          </p>
+          <p className="text-lg text-black text-justify mb-3">
             Biodata saya mencerminkan perjalanan{" "}
             <span className="font-bold text-blue-800">
               pendidikan yang kuat

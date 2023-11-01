@@ -9,10 +9,14 @@ const Footer = () => {
     >
       <div className="hidden md:flex flex-col md:w-1/2 gap-8 mb-10 md:mb-0 text-center md:text-start">
         <h1 className="text-black font-bold text-xl">
-          Segera gabung ke dalam tim TheWinningHerny
+          Segera gabung ke dalam{" "}
+          <span className="text-blue-700">Tim Pemenangan Herny</span>
         </h1>
         <div className="">
-          <a href="http://" className="btn-primary">
+          <a
+            href="https://docs.google.com/forms/d/1ORkLt-fYhDzI2A5qmNIe6MrW_3hYaHgN1WjUr2Y0EZc"
+            className="btn-primary"
+          >
             Gabung Sekarang!
           </a>
         </div>
@@ -23,13 +27,24 @@ const Footer = () => {
           menciptakan masa depan yang lebih baik.
         </p>
       </div>
-      <div className="flex flex-wrap md:flex-col gap-2 w-full md:w-1/2">
-        {socials.map((social) => (
-          <div className="flex gap-2 justify-end items-center" key={social.id}>
-            <img src={social.logo} alt={social.name} />
-            <p className="text-white ">{social.name}</p>
-          </div>
-        ))}
+      <div className="flex justify-end items-end w-full md:w-1/2">
+        <div className="flex flex-wrap md:flex-col gap-2">
+          {socials.map((social) => (
+            <a
+              href={social.link}
+              target="_blank"
+              className="flex gap-2 justify-start items-center"
+              key={social.id}
+            >
+              <img
+                src={social.logo}
+                alt={social.name}
+                className="w-8 md:w-12"
+              />
+              <p className="text-white ">{social.name}</p>
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );

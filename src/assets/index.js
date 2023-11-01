@@ -18,13 +18,13 @@ import sunlife from "./logo/sunlife.png";
 import telkomsel from "./logo/telkomsel.png";
 import building from "./logo/building.svg";
 
-import galeri1 from "./image/galeri1.png";
-import galeri2 from "./image/galeri2.png";
-import galeri3 from "./image/galeri3.png";
+import galeri1 from "./image/galeri1.jpg";
+import galeri2 from "./image/galeri2.jpg";
+import galeri3 from "./image/galeri3.jpg";
 import galeri4 from "./image/galeri4.png";
 import galeri5 from "./image/galeri5.png";
 import galeri6 from "./image/galeri6.png";
-import galeri7 from "./image/galeri7.png";
+import galeri7 from "./image/galeri7.jpg";
 import galeri8 from "./image/galeri8.png";
 import galeri9 from "./image/galeri9.png";
 

@@ -115,26 +115,26 @@ const socials = [
   {
     id: 1,
     logo: twitter,
-    link: "http://",
-    name: "@hernyjuniarti",
+    link: "https://twitter.com/Hernyjuniarti",
+    name: "@Hernyjuniarti",
   },
   {
     id: 2,
     logo: facebook,
-    link: "http://",
-    name: "@hernyjuniarti",
+    link: "https://www.facebook.com/profile.php?id=100094294504634",
+    name: "Herny Juniarti",
   },
   {
     id: 3,
     logo: instagram,
-    link: "http://",
+    link: "https://www.instagram.com/hernyjuniarti/",
     name: "@hernyjuniarti",
   },
   {
     id: 4,
     logo: tiktok,
-    link: "http://",
-    name: "@hernyjuniarti",
+    link: "https://www.tiktok.com/@herny.juniarti",
+    name: "@herny.juniarti",
   },
 ];
 
