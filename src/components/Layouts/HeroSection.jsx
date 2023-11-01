@@ -6,6 +6,7 @@ import {
   bgCardBottom,
 } from "../../assets";
 import Container from "../Fragments/Container";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const VisiMisi = (props) => {
   const { children, title, bg } = props;
@@ -50,10 +51,18 @@ const HeroSection = () => {
                 <h1 className="w-full">#WanitaPermataMulia</h1>
                 <h1>#HernyTerbuktiAmanah</h1>
               </div>
-              <img src={fotoGroup} className="hidden lg:block" alt="" />
+              <LazyLoadImage
+                src={fotoGroup}
+                className="hidden lg:block"
+                alt=""
+              />
             </div>
             <div className="w-full lg:w-1/3">
-              <img src={buHerny} alt="Herny Junarti, S.E" className="w-full" />
+              <LazyLoadImage
+                src={buHerny}
+                alt="Herny Junarti, S.E"
+                className="w-full"
+              />
             </div>
           </div>
         </Container>
