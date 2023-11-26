@@ -58,10 +58,7 @@ const Navbar = () => {
           <a href="#experience">Pengalaman</a>
         </li>
         <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          <a href="#organization">Organisasi</a>
-        </li>
-        <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
-          <a href="#documentation">Dokumentasi</a>
+          <a href="#docimentation">Dokumentasi</a>
         </li>
       </ul>
       <img
