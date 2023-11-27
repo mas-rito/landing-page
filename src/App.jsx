@@ -12,6 +12,7 @@ function App() {
       <section id="home">
         <HeroSection />
       </section>
+      <JoinSection />
       <section id="about">
         <AboutSection />
       </section>

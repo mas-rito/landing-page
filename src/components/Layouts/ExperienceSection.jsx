@@ -1,4 +1,3 @@
-import React from "react";
 import Container from "../Fragments/Container";
 import { titleIcon } from "../../assets";
 import { pengalaman } from "../../constants";

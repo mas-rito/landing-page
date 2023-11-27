@@ -22,8 +22,8 @@ const AboutSection = () => {
             atau sering dikenal sebagai{" "}
             <span className="font-bold text-blue-800">Nai Sok Hui.</span> Lahir
             di <span className="font-bold text-blue-800">Kota Pontianak,</span>{" "}
-            saya tumbuh dalam keluarga dengan keyakinan agama Katolik yang kuat.
-            Perjalanan pendidikan saya dimulai di{" "}
+            saya tumbuh dalam keluarga yang harmonis. Perjalanan pendidikan saya
+            dimulai di{" "}
             <span className="font-bold text-blue-800">
               TK Kanisius pada tahun 1977 hingga 1979.
             </span>
