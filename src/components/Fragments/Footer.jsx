@@ -14,8 +14,10 @@ const Footer = () => {
         </h1>
         <div className="">
           <a
-            href="https://docs.google.com/forms/d/1ORkLt-fYhDzI2A5qmNIe6MrW_3hYaHgN1WjUr2Y0EZc"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScg42BqJ57DDVQKJ1oKPsNuWSlZHbvmDzMFXBo3JxHaemY8GA/viewform?usp=sf_link"
+            target="_blank"
             className="btn-primary"
+            rel="noreferrer"
           >
             Gabung Sekarang!
           </a>
@@ -35,6 +37,7 @@ const Footer = () => {
               target="_blank"
               className="flex gap-2 justify-start items-center"
               key={social.id}
+              rel="noreferrer"
             >
               <img
                 src={social.logo}

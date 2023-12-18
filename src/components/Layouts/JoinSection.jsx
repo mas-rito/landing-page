@@ -10,7 +10,7 @@ const JoinSection = () => {
           </h1>
           <div className="text-center md:text-start my-8">
             <a
-              href="https://docs.google.com/forms/d/1ORkLt-fYhDzI2A5qmNIe6MrW_3hYaHgN1WjUr2Y0EZc"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScg42BqJ57DDVQKJ1oKPsNuWSlZHbvmDzMFXBo3JxHaemY8GA/viewform?usp=sf_link"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary"
