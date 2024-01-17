@@ -1,11 +1,10 @@
-import { backgroundFooter } from "../../assets";
 import { socials } from "../../constants";
 
 const Footer = () => {
   return (
     <div
       className="flex flex-wrap justify-between bg-gray-200 py-10 px-6 md:px-20 bg-no-repeat bg-right-bottom"
-      style={{ backgroundImage: `url(${backgroundFooter})` }}
+      style={{ backgroundImage: `url(/assets/elements/footer-bg.svg)` }}
     >
       <div className="hidden md:flex flex-col md:w-1/2 gap-8 mb-10 md:mb-0 text-center md:text-start">
         <h1 className="text-black font-bold text-xl">

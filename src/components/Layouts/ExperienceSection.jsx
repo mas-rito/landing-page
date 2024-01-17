@@ -1,5 +1,4 @@
 import Container from "../Fragments/Container";
-import { titleIcon } from "../../assets";
 import { pengalaman } from "../../constants";
 import {
   VerticalTimeline,
@@ -8,6 +7,8 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 
 const ExperienceSection = () => {
+  const titleIcon = "/assets/elements/title-icon.svg";
+
   return (
     <Container>
       <div className="py-20">

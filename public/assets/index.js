@@ -1,37 +1,37 @@
-import logoPan from "./image/logo-pan.png";
-import backgroundHero from "./image/background.png";
-import fotoGroup from "./image/foto-group-hero.png";
-import buHerny from "./image/foto-bu-herny.png";
-import buHernySalam from "./image/bu-herny-salam.png";
+const logoPan = "/assets/image/logo-pan.png";
+const backgroundHero = "/assets/image/background.png";
+const fotoGroup = "/assets/image/foto-group-hero.png";
+const buHerny = "/assets/image/foto-bu-herny.png";
+const buHernySalam = "/assets/image/bu-herny-salam.png";
 
-import bgCardTop from "./elements/bg-card-top.png";
-import bgCardBottom from "./elements/bg-card-bottom.png";
-import titleIcon from "./elements/title-icon.svg";
-import organisasiBg from "./elements/organisasi-bg.svg";
-import plus from "./elements/plus.svg";
-import backgroundFooter from "./elements/footer-bg.svg";
+const bgCardTop = "/assets/elements/bg-card-top.png";
+const bgCardBottom = "/assets/elements/bg-card-bottom.png";
+const titleIcon = "/assets/elements/title-icon.svg";
+const organisasiBg = "/assets/elements/organisasi-bg.svg";
+const plus = "/assets/elements/plus.svg";
+const backgroundFooter = "/assets/elements/footer-bg.svg";
 
-import bankBali from "./logo/bank-bali.png";
-import hanwa from "./logo/hanwa.png";
-import samsung from "./logo/samsung.png";
-import sunlife from "./logo/sunlife.png";
-import telkomsel from "./logo/telkomsel.png";
-import building from "./logo/building.svg";
+const bankBali = "/assets/logo/bank-bali.png";
+const hanwa = "/assets/logo/hanwa.png";
+const samsung = "/assets/logo/samsung.png";
+const sunlife = "/assets/logo/sunlife.png";
+const telkomsel = "/assets/logo/telkomsel.png";
+const building = "/assets/logo/building.svg";
 
-import galeri1 from "./image/galeri1.png";
-import galeri2 from "./image/galeri2.png";
-import galeri3 from "./image/galeri3.png";
-import galeri4 from "./image/galeri4.png";
-import galeri5 from "./image/galeri5.png";
-import galeri6 from "./image/galeri6.png";
-import galeri7 from "./image/galeri7.png";
-import galeri8 from "./image/galeri8.png";
-import galeri9 from "./image/galeri9.png";
+const galeri1 = "/assets/image/galeri1.png";
+const galeri2 = "/assets/image/galeri2.png";
+const galeri3 = "/assets/image/galeri3.png";
+const galeri4 = "/assets/image/galeri4.png";
+const galeri5 = "/assets/image/galeri5.png";
+const galeri6 = "/assets/image/galeri6.png";
+const galeri7 = "/assets/image/galeri7.png";
+const galeri8 = "/assets/image/galeri8.png";
+const galeri9 = "/assets/image/galeri9.png";
 
-import twitter from "./logo/twitter.svg";
-import facebook from "./logo/facebook.svg";
-import instagram from "./logo/instagram.svg";
-import tiktok from "./logo/tiktok.svg";
+const twitter = "/assets/logo/twitter.svg";
+const facebook = "/assets/logo/facebook.svg";
+const instagram = "/assets/logo/instagram.svg";
+const tiktok = "/assets/logo/tiktok.svg";
 
 export {
   logoPan,

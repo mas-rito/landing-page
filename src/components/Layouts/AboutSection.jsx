@@ -1,7 +1,9 @@
-import { buHernySalam, titleIcon } from "../../assets";
 import Container from "../Fragments/Container";
 
 const AboutSection = () => {
+  const buHernySalam = "/assets/image/bu-herny-salam.png";
+  const titleIcon = "/assets/elements/title-icon.svg";
+
   return (
     <Container>
       <div className="flex flex-wrap py-20">

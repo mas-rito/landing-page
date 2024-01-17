@@ -1,15 +1,12 @@
-import {
-  backgroundHero,
-  buHerny,
-  fotoGroup,
-  bgCardTop,
-  bgCardBottom,
-} from "../../assets";
 import Container from "../Fragments/Container";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const VisiMisi = (props) => {
   const { children, title, bg } = props;
+
+  const bgCardTop = "/assets/elements/bg-card-top.png";
+  const bgCardBottom = "/assets/elements/bg-card-bottom.png";
+
   return (
     <div className="px-2 mb-4 lg:mb-0 w-full md:w-5/12 lg:w-4/12">
       <div className="relative">
@@ -38,6 +35,10 @@ const VisiMisi = (props) => {
 };
 
 const HeroSection = () => {
+  const backgroundHero = "/assets/image/background.png";
+  const buHerny = "/assets/image/foto-bu-herny.png";
+  const fotoGroup = "/assets/image/foto-group-hero.png";
+
   return (
     <>
       <div
