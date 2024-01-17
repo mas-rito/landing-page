@@ -31,6 +31,7 @@ const ExperienceSection = () => {
               <div className="flex justify-center items-center w-full h-full">
                 <img
                   src={pengalaman.logo}
+                  loading="lazy"
                   alt={pengalaman.company}
                   className="object-cover"
                 />

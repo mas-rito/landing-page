@@ -8,7 +8,12 @@ const AboutSection = () => {
     <Container>
       <div className="flex flex-wrap py-20">
         <div className="w-full md:w-1/3">
-          <img src={buHernySalam} alt="Bu Herny Junarti" className="w-full" />
+          <img
+            loading="lazy"
+            src={buHernySalam}
+            alt="Bu Herny Junarti"
+            className="w-full"
+          />
         </div>
         <div className="w-full md:w-2/3 px-3 md:ps-10 ">
           <div className="my-5">

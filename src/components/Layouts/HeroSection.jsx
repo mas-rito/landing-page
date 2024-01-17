@@ -47,10 +47,20 @@ const HeroSection = () => {
                 <h1 className="w-full">#WanitaPermataMulia</h1>
                 <h1>#HernyTerbuktiAmanah</h1>
               </div>
-              <img src={fotoGroup} className="hidden lg:block" alt="" />
+              <img
+                src={fotoGroup}
+                loading="lazy"
+                className="hidden lg:block"
+                alt=""
+              />
             </div>
             <div className="w-full lg:w-1/3">
-              <img src={buHerny} alt="Herny Junarti, S.E" className="w-full" />
+              <img
+                src={buHerny}
+                loading="eager"
+                alt="Herny Junarti, S.E"
+                className="w-full"
+              />
             </div>
           </div>
         </Container>
