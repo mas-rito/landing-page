@@ -1,5 +1,5 @@
 const logoPan = "/assets/image/logo-pan.png";
-const backgroundHero = "/assets/image/background.png";
+const backgroundHero = "/assets/image/background.svg";
 const fotoGroup = "/assets/image/foto-group-hero.png";
 const buHerny = "/assets/image/foto-bu-herny.png";
 const buHernySalam = "/assets/image/bu-herny-salam.png";

@@ -35,14 +35,14 @@ const VisiMisi = (props) => {
 };
 
 const HeroSection = () => {
-  const backgroundHero = "/assets/image/background.png";
+  const backgroundHero = "/assets/image/background.svg";
   const buHerny = "/assets/image/foto-bu-herny.png";
   const fotoGroup = "/assets/image/foto-group-hero.png";
 
   return (
     <>
       <div
-        className="min-h-screen bg-cover bg-center bg-no-repeat py-20"
+        className="min-h-screen bg-blue-700 bg-right bg-no-repeat py-20"
         style={{ backgroundImage: `url(${backgroundHero})` }}
       >
         <Container>
