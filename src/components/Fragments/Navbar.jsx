@@ -46,7 +46,7 @@ const Navbar = () => {
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
-          <ul className="hidden md:flex gap-6">
+          <ul className="hidden lg:flex gap-6">
             <li className="hover:text-blue-500 hover:border-blue-500 px-20 py-1 lg:p-0">
               <a href="#home">Home</a>
             </li>
