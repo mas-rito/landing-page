@@ -1,5 +1,4 @@
 import Container from "../Fragments/Container";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const VisiMisi = (props) => {
   const { children, title, bg } = props;
@@ -35,7 +34,6 @@ const VisiMisi = (props) => {
 };
 
 const HeroSection = () => {
-  // const backgroundHero = "/assets/image/background.svg";
   const buHerny = "/assets/image/foto-bu-herny.png";
   const fotoGroup = "/assets/image/foto-group-hero.png";
 
@@ -49,18 +47,10 @@ const HeroSection = () => {
                 <h1 className="w-full">#WanitaPermataMulia</h1>
                 <h1>#HernyTerbuktiAmanah</h1>
               </div>
-              <LazyLoadImage
-                src={fotoGroup}
-                className="hidden lg:block"
-                alt=""
-              />
+              <img src={fotoGroup} className="hidden lg:block" alt="" />
             </div>
             <div className="w-full lg:w-1/3">
-              <LazyLoadImage
-                src={buHerny}
-                alt="Herny Junarti, S.E"
-                className="w-full"
-              />
+              <img src={buHerny} alt="Herny Junarti, S.E" className="w-full" />
             </div>
           </div>
         </Container>

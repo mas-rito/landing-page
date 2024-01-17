@@ -1,6 +1,5 @@
 import Container from "../Fragments/Container";
 import { galeries } from "../../constants";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const DocumentationSection = () => {
   return (
@@ -11,7 +10,7 @@ const DocumentationSection = () => {
 
       <div className="flex flex-wrap justify-center gap-4">
         {galeries.map((galery, index) => (
-          <LazyLoadImage
+          <img
             src={galery.image}
             alt=""
             className="md:w-5/12 lg:w-3/12 rounded-xl shadow-xl"
